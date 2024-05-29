@@ -339,7 +339,6 @@ section {
 article {
     display: flex;
     width: 10rem;
-    align-items: center;
     gap: 0.5rem;
     box-sizing: border-box;
     text-align: center;
