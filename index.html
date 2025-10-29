@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Alejandro Diaz - Software Engineer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Alejandro Diaz</div>
+        <div class="logo">Alejandro A. Diaz Medina</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -21,7 +21,7 @@
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">Alejandro Diaz</div>
+        <div class="logo">Alejandro A. Diaz Medina</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -42,8 +42,9 @@
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">Alejandro Diaz</h1>
+            <h1 class="title">Alejandro A. Diaz Medina</h1>
             <p class="section__text__p2">Software Engineer</p>
+            <p class="section__text__p3">San Juan, PR • Expected Graduation: May 2026</p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./Assets/AlejandroResume.pdf')">Download CV</button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
@@ -57,28 +58,45 @@
     <section id="about">
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
-        <div class="section-container">
-            <div class="section__pic-container">
-                <img
-                src="./Assets/AboutPic.png" alt="Profile picture" class="about-pic"/>
-            </div>
+        <div class="about-content-wrapper">
             <div class="about-details-container">
                 <div class="about-containers">
                     <div class="details-container">
                         <img src="./Assets/education.png" alt="Education icon" class="icon"/>
                         <h3>Education</h3>
-                        <p>-Bachelors Degree in Software Engineering<br />-Minor in Project Management</p>
+                        <p><strong>University of Puerto Rico – Mayagüez (UPRM)</strong><br />
+                        B.S.E. in Software Engineering<br />
+                        Minor Certificate in Project Management<br />
+                        <em>Expected Graduation: May 2026</em></p>
                     </div>
                     <div class="details-container">
                         <img src="./Assets/experience.png" alt="Experience icon" class="icon"/>
-                        <h3>Coursework</h3>
-                        <p>-Advanced Programming<br />-Data Structure<br />-Analysis of Algorithm<br />-Intro to Software</p>
+                        <h3>Relevant Coursework</h3>
+                        <p>Advanced Programming (OOP)<br />
+                        Data Structures & Computer Architecture<br />
+                        Machine Learning & High-Performance Computing<br />
+                        Software Design, Testing & Analysis of Algorithms</p>
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>
-                        I'm a dynamic and motivated Software Engineer with a passion for coding and creating innovative software solutions. I love using my skills to build efficient, user-friendly applications. I have a solid grasp of software development, new technologies, best practices, and user experience. I'm always eager to learn and solve problems, paying close attention to detail and aiming to deliver top-notch results.
-                    </p>
+                    <div class="about-text-content">
+                        <h3 class="about-subtitle">Professional Summary</h3>
+                        <p>
+                            I'm a dynamic Software Engineer and Data Analyst currently pursuing my B.S.E. in Software Engineering at UPRM with a minor in Project Management. With extensive internship experience at Jacobs Engineering and Nagnoi LLC, I specialize in full-stack development, data engineering, and machine learning solutions.
+                        </p>
+                        <p>
+                            My expertise spans Python, React.js, and data visualization tools, with a strong focus on building scalable applications and extracting meaningful insights from complex datasets. I've developed Palantir Foundry dashboards, created NLP-powered chatbots, and built comprehensive data analysis tools that drive business value and improve operational efficiency.
+                        </p>
+                        <div class="key-achievements">
+                            <h4>Key Achievements:</h4>
+                            <ul>
+                                <li>Automated manual tracking systems, reducing errors and improving oversight</li>
+                                <li>Built NLP-powered chatbots for internal workflow optimization</li>
+                                <li>Developed data visualization dashboards for educational resource allocation</li>
+                                <li>Created executable tools for non-technical staff, reducing manual effort</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -87,147 +105,193 @@
     <section id="experience">
         <p class="section__text__p1">Explore My</p>
         <h1 class="title">Experience</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Programming Languages</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>Python</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./Assets/checkmark.png"alt="Experience icon"class="icon"/>
-                            <div>
-                                <h3>C++</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./Assets/checkmark.png"alt="Experience icon"class="icon"/>
-                            <div>
-                                <h3>JAVA</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./Assets/checkmark.png"alt="Experience icon"class="icon"/>
-                            <div>
-                                <h3>SQL</h3>
-                                <p>Beginner</p>
-                            </div>
-                        </article>
+        
+        <div class="experience-content-wrapper">
+            <!-- Work Experience Section -->
+            <div class="work-experience-container">
+                <h2 class="experience-sub-title">Work Experience</h2>
+                <div class="work-timeline">
+                    <div class="work-item">
+                        <div class="work-header">
+                            <h3>Jacobs Engineering – Software/Data Engineer Intern</h3>
+                            <p class="work-duration">Jun 2025 – Aug 2025 | Guaynabo, PR</p>
+                        </div>
+                        <ul class="work-achievements">
+                            <li>Automated manual tracking of employee work hours by building a Palantir Foundry dashboard</li>
+                            <li>Developed project timeline monitoring tool in Python + pandas for data visualization</li>
+                            <li>Created timesheet PDF extractor with simple interface for non-technical staff</li>
+                        </ul>
                     </div>
-                </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Tools</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>GitHub</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./Assets/checkmark.png"alt="Experience icon"class="icon"/>
-                            <div>
-                                <h3>Visual Studio Code</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./Assets/checkmark.png"alt="Experience icon"class="icon"/>
-                            <div>
-                                <h3>Eclipse</h3>
-                                <p>Beginner</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./Assets/checkmark.png"alt="Experience icon"class="icon"/>
-                            <div>
-                                <h3>Microsoft Office</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
+                    <div class="work-item">
+                        <div class="work-header">
+                            <h3>Jacobs Engineering – Software/Data Engineer Intern</h3>
+                            <p class="work-duration">May 2024 – Aug 2024 | Guaynabo, PR</p>
+                        </div>
+                        <ul class="work-achievements">
+                            <li>Designed and tested response app for private water company using Palantir Foundry</li>
+                            <li>Built NLP-powered chatbot to query company procedures from PDFs</li>
+                            <li>Cleaned, transformed, and validated large datasets ensuring accuracy and integrity</li>
+                        </ul>
+                    </div>
+                    <div class="work-item">
+                        <div class="work-header">
+                            <h3>Nagnoi LLC – Data Analyst Intern</h3>
+                            <p class="work-duration">May 2023 – Jul 2023 | San Juan, PR</p>
+                        </div>
+                        <ul class="work-achievements">
+                            <li>Partnered with PR Department of Education for school resource allocation dashboards</li>
+                            <li>Conducted SQL-based data retrieval and statistical analysis for reporting</li>
+                            <li>Built dashboards with Power BI, SQL, and Excel to track KPIs</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="about-containers">
-                <div class="details-container">
-                    <h2 class="experience-sub-title">FrameWorks</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>openFrameworks</h3>
-                                <p>Intermediate</p>
+
+            <!-- Technical Skills Section -->
+            <div class="skills-container">
+                <h2 class="experience-sub-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category-wrapper">
+                        <div class="skill-category">
+                            <h3>Programming Languages</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag expert">Python</span>
+                                <span class="skill-tag advanced">C++</span>
+                                <span class="skill-tag advanced">C</span>
+                                <span class="skill-tag advanced">Java</span>
+                                <span class="skill-tag advanced">TypeScript</span>
+                                <span class="skill-tag advanced">JavaScript</span>
+                                <span class="skill-tag advanced">SQL</span>
+                                <span class="skill-tag intermediate">HTML</span>
+                                <span class="skill-tag intermediate">CSS</span>
+                                <span class="skill-tag intermediate">MATLAB</span>
                             </div>
-                        </article>
+                        </div>
                     </div>
-                </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Operating Systems</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>MacOs</h3>
-                                <p>Experienced</p>
+                    <div class="skill-category-wrapper">
+                        <div class="skill-category">
+                            <h3>Frameworks & Libraries</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag advanced">React.js</span>
+                                <span class="skill-tag intermediate">React Native</span>
+                                <span class="skill-tag intermediate">Node.js</span>
+                                <span class="skill-tag expert">Pandas</span>
+                                <span class="skill-tag advanced">NumPy</span>
+                                <span class="skill-tag advanced">Matplotlib</span>
+                                <span class="skill-tag intermediate">scikit-learn</span>
+                                <span class="skill-tag intermediate">TensorFlow</span>
+                                <span class="skill-tag intermediate">OpenCV</span>
+                                <span class="skill-tag intermediate">NextJS</span>
+                                <span class="skill-tag intermediate">NestJS</span>
+                                <span class="skill-tag advanced">Tailwind CSS</span>
                             </div>
-                        </article>
-                        <article>
-                            <img src="./Assets/checkmark.png"alt="Experience icon"class="icon"/>
-                            <div>
-                                <h3>Windows</h3>
-                                <p>Intermediate</p>
+                        </div>
+                    </div>
+                    <div class="skill-category-wrapper">
+                        <div class="skill-category">
+                            <h3>Databases</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag advanced">MySQL</span>
+                                <span class="skill-tag intermediate">Firebase</span>
+                                <span class="skill-tag intermediate">Supabase</span>
+                                <span class="skill-tag intermediate">PostgreSQL</span>
                             </div>
-                        </article>
+                        </div>
+                    </div>
+                    <div class="skill-category-wrapper">
+                        <div class="skill-category">
+                            <h3>Tools & DevOps</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag expert">Git</span>
+                                <span class="skill-tag expert">GitHub</span>
+                                <span class="skill-tag advanced">Visual Studio Code</span>
+                                <span class="skill-tag advanced">Jupyter Notebook</span>
+                                <span class="skill-tag intermediate">Google Colab</span>
+                                <span class="skill-tag intermediate">Eclipse</span>
+                                <span class="skill-tag intermediate">Docker</span>
+                                <span class="skill-tag intermediate">Figma</span>
+                                <span class="skill-tag advanced">Palantir Foundry</span>
+                                <span class="skill-tag advanced">Linux</span>
+                                <span class="skill-tag advanced">Mac</span>
+                                <span class="skill-tag advanced">Windows</span>
+                                <span class="skill-tag advanced">Power BI</span>
+                                <span class="skill-tag advanced">Excel</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category-wrapper">
+                        <div class="skill-category">
+                            <h3>Languages</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag native">Spanish</span>
+                                <span class="skill-tag fluent">English</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="skills-section-padding"></div>
         </div>
         <img src="./Assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
     </section>
     <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="./Assets/Project_1.png" alt="Project 1" class="project-img">
+        <div class="projects-content-wrapper">
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <div class="project-icon-bg">📊</div>
                     </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AleDiazz/Snake-game'">Github</button>
-                        <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='http://'">Live Demo</button> -->
-                    </div>
-                </div>
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="./Assets/Project_2.png" alt="Project 2" class="project-img">
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AleDiazz/Portfolio-Website'">Github</button>
-                        <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='http://'">Live Demo</button> -->
+                    <h2 class="project-title">Hours-Tracking Dashboard</h2>
+                    <p class="project-description">Automated tracking of approved vs. worked hours, enabling resource reallocation, error reduction, and management oversight.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Palantir Foundry</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Oracle</span>
                     </div>
                 </div>
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="./Assets/Project_3.png" alt="Project 3" class="project-img">
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <div class="project-icon-bg">📄</div>
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href=''">Coming Soon</button>
-                        <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='http://'">Live Demo</button> -->
+                    <h2 class="project-title">Timesheet Extractor</h2>
+                    <p class="project-description">Processed and organized employee timesheet PDFs; delivered as a simple interface with an executable for non-technical staff, reducing manual effort.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">PDF Processing</span>
+                        <span class="tech-tag">GUI</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <div class="project-icon-bg">🤖</div>
+                    </div>
+                    <h2 class="project-title">ChatBot (Palantir)</h2>
+                    <p class="project-description">NLP-powered chatbot to query company procedure PDFs, streamlining internal workflows.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">NLP</span>
+                        <span class="tech-tag">Palantir Foundry</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <div class="project-icon-bg">🐍</div>
+                    </div>
+                    <h2 class="project-title">Snake Game (Pygame)</h2>
+                    <p class="project-description">Modular OOP-based game with real-time graphics and bug fixes for improved gameplay.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pygame</span>
+                        <span class="tech-tag">OOP</span>
                     </div>
                 </div>
             </div>
+            <div class="projects-section-padding"></div>
         </div>
         <img src="./Assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
     </section>
@@ -240,23 +304,44 @@
                 <p><a href="mailto:alejandro.diaz.sms@gmail.com">alejandro.diaz.sms@gmail.com</a></p>
             </div>
             <div class="contact-info-container">
+                <img src="./Assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:alejandro.diaz10@upr.edu">alejandro.diaz10@upr.edu</a></p>
+            </div>
+            <div class="contact-info-container">
                 <img src="./Assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
                 <p><a href="https://www.linkedin.com/in/alejandro-diaz-7a91b52b2/">LinkedIn</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./Assets/github.png" alt="GitHub icon" class="icon contact-icon">
+                <p><a href="https://github.com/AleDiazz">GitHub</a></p>
+            </div>
+        </div>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <p class="contact-detail"><strong>Phone:</strong> 787-518-7836</p>
+            </div>
+            <div class="contact-info-container">
+                <p class="contact-detail"><strong>Location:</strong> San Juan, PR</p>
+            </div>
+            <div class="contact-info-container">
+                <p class="contact-detail"><strong>Portfolio:</strong> <a href="https://alejodiazportfolio.netlify.app">alejodiazportfolio.netlify.app</a></p>
             </div>
         </div>
     </section>
     <footer>
-        <nav>
-            <div class="nav-links-container">
-                <ul class="nav-links">
+        <div class="footer-content">
+            <div class="footer-nav">
+                <ul class="footer-nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
-        </nav>
-        <p>Copyright &#169; 2024 Alejandro Diaz. All Rights Reserved.</p>
+            <div class="footer-bottom">
+                <p>Copyright &#169; 2024 Alejandro A. Diaz Medina. All Rights Reserved.</p>
+            </div>
+        </div>
     </footer>
     <script src="script.js"></script>
 </body>
